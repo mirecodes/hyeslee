@@ -18,12 +18,12 @@ const LinkedinIcon: React.FC<{ size?: number }> = ({ size = 18 }) => (
 export const AboutSection: React.FC = () => {
   const profile = {
     name: 'Hyesung Lee',
-    profileImage: '/profile.jpg',
+    profileImage: `${import.meta.env.BASE_URL}profile.jpg`,
     location: 'Zürich, Switzerland',
     email: 'mireflare@snu.ac.kr',
     githubUrl: 'https://github.com/mirecodes',
     linkedinUrl: 'https://linkedin.com',
-    cvUrl: '/cv/hyesunglee.pdf',
+    cvUrl: `${import.meta.env.BASE_URL}cv/hyesunglee.pdf`,
     interests: [
       'Multi-Agent Robotic Systems',
       'Learning-Based Control (PPO, ACT, SERL)',

@@ -10,10 +10,10 @@ const courseProjects = [
     period: 'Spring 2025',
     category: 'Mechatronics | SNU',
     description: 'Built a mechatronic reading stand that automatically scans, interprets, and turns book pages without destruction.',
-    mediaUrl: '/images/projects/swan-book-stand.png',
+    mediaUrl: `${import.meta.env.BASE_URL}images/projects/swan-book-stand.png`,
     mediaType: 'image' as const,
     metrics: '3rd Place Award',
-    pdfUrl: '/papers/swan-book-stand.pdf',
+    pdfUrl: `${import.meta.env.BASE_URL}papers/swan-book-stand.pdf`,
     videoUrl: 'https://www.youtube.com/watch?v=4cHLKh9sdVk'
   },
   {
@@ -23,7 +23,7 @@ const courseProjects = [
     period: 'Spring 2025',
     category: 'Materials & Manufacturing | SNU',
     description: 'Achieved 140 kg load resistance under 3-point bending test using a 90 g carbon-fiber composite structure.',
-    mediaUrl: '/images/projects/carbon-bridge.jpg',
+    mediaUrl: `${import.meta.env.BASE_URL}images/projects/carbon-bridge.jpg`,
     mediaType: 'image' as const,
     aspectRatio: '3 / 4',
     metrics: '1st Place Award'
@@ -35,7 +35,7 @@ const courseProjects = [
     period: 'Fall 2020',
     category: 'Creative Engineering Design | SNU',
     description: 'Designed a rubber band–actuated jumping robot using a wooden-link structure. Designed a wooden-link locomotive robot based on joint–link locomotion principles.',
-    mediaUrl: '/images/projects/jumping-robot.jpg',
+    mediaUrl: `${import.meta.env.BASE_URL}images/projects/jumping-robot.jpg`,
     mediaType: 'image' as const,
     aspectRatio: '3 / 4'
   }

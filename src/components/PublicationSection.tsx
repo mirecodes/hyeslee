@@ -11,7 +11,7 @@ const publicationData = [
     type: 'Preprint' as const,
     doi: 'arXiv:2608.04842',
     abstract: 'Designed an end-to-end pipeline for real-to-sim articulated object reconstruction, suggesting Automatic Joint Suggestion Algorithm with Human-in-the-loop tuning process. The reconstructed asset is used in simulation for humanoid manipulation tasks.',
-    mediaUrl: '/images/researches/res-1.png',
+    mediaUrl: `${import.meta.env.BASE_URL}images/researches/res-1.png`,
     mediaType: 'image' as const,
     demoUrl: 'https://mirecodes.github.io/project-rora/',
     pdfUrl: 'https://arxiv.org/abs/2608.04842',

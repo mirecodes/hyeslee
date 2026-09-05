@@ -16,7 +16,7 @@ const researchProjects = [
       { name: 'Prof. Dongjun Lee', url: 'https://scholar.google.com/citations?user=qKexATgAAAAJ&hl=en' }
     ],
     tags: ['Digital Twin', 'Real-to-Sim', 'Gaussian Splatting', 'Articulation', 'Robot Manipulation',],
-    mediaUrl: '/images/researches/res-1.png',
+    mediaUrl: `${import.meta.env.BASE_URL}images/researches/res-1.png`,
     mediaType: 'image' as const,
     demoUrl: 'https://mirecodes.github.io/project-rora/',
     pdfUrl: 'https://arxiv.org/abs/2608.04842',
@@ -35,9 +35,9 @@ const researchProjects = [
       { name: 'Dr. Joonho Lee', url: 'https://scholar.google.com/citations?user=6Htb7swAAAAJ&hl=en' }
     ],
     tags: ['Controls', 'Compliance', 'Haptic Feedback', 'Teleoperatoin', 'Data Collectoin'],
-    mediaUrl: '/images/researches/res-2.png',
+    mediaUrl: `${import.meta.env.BASE_URL}images/researches/res-2.png`,
     mediaType: 'image' as const,
-    pdfUrl: '/papers/neuromeka-teleop.pdf',
+    pdfUrl: `${import.meta.env.BASE_URL}papers/neuromeka-teleop.pdf`,
     videoUrl: 'https://youtu.be/wZFTdRmPDlw?si=ZtfYt3tf6WtzqfSY'
   },
   {
@@ -52,9 +52,9 @@ const researchProjects = [
       { name: 'Prof. Dr. Stelian Coros', url: 'https://scholar.google.com/citations?user=sX31JjwAAAAJ&hl=en' }
     ],
     tags: ['Reinforcement Learning', 'PPO policy', 'Wheel-legged locomotion', 'Unitree B2W',],
-    mediaUrl: '/images/researches/res-3.png',
+    mediaUrl: `${import.meta.env.BASE_URL}images/researches/res-3.png`,
     mediaType: 'image' as const,
-    pdfUrl: '/papers/eth-b2w-locomotion.pdf',
+    pdfUrl: `${import.meta.env.BASE_URL}papers/eth-b2w-locomotion.pdf`,
     videoUrl: '#'
   },
   {
@@ -69,9 +69,9 @@ const researchProjects = [
       { name: 'Prof. Kyujin Cho', url: 'https://scholar.google.com/citations?user=0tZCHoUAAAAJ&hl=en' }
     ],
     tags: ['Elongation Robot', 'Origami Structure', 'Penumatic Actuation', 'Soft Robotics'],
-    mediaUrl: '/images/researches/res-4.png',
+    mediaUrl: `${import.meta.env.BASE_URL}images/researches/res-4.png`,
     mediaType: 'image' as const,
-    pdfUrl: '/papers/brl-soft-robotics.pdf',
+    pdfUrl: `${import.meta.env.BASE_URL}papers/brl-soft-robotics.pdf`,
     videoUrl: '#'
   }
 ];
